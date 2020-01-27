@@ -6,22 +6,25 @@ import java.util.Random;
 
 public class MergeSort {
 
-    public static void divide(int lowestIndex, int highestIndex, List<Integer> list, List<Integer> tempList) {
+    public ArrayList<Integer> divide(ArrayList<Integer> list) {
+        ArrayList<Integer> leftSide = new ArrayList<>();
+        ArrayList<Integer> rightSide = new ArrayList<>();
+        int  middleOfList = list.size()/2;
 
-        //Using recursion to keep dividing the list until it contains only 1 element at any time
-        if (lowestIndex < highestIndex) {
-            int middleOfList = list.size() / 2;
-            divide(lowestIndex, middleOfList, list, tempList);
-            divide(middleOfList + 1, highestIndex, list, tempList);
-            conquer(lowestIndex, middleOfList, highestIndex, list, tempList);
+        if (list.size() == 1) {
+            return list;
+        } else {
+            for(int x = 0; x < middleOfList; x++) {
+                leftSide.add(list.get(x));
+            }
+            for(int y = middleOfList; y < list.size(); y++) {
+                rightSide.add(list.get(y));
+            }
+            leftSide = divide(leftSide);
+            rightSide = divide(rightSide);
+
         }
-
-    }
-
-    //sorting and printing the list
-    public static void print(List<Integer> list) {
-        divide(0, list.size() - 1, list, new ArrayList<>(list));
-        System.out.println(list);
+        return list;
     }
 
     public static void conquer(int lowestIndex, int middleOfList, int highestIndex, List<Integer> list, List<Integer> tempList) {
@@ -48,12 +51,12 @@ public class MergeSort {
     }
 
         public static void main (String[]args){
-            List<Integer> list = new ArrayList<>();
+            ArrayList<Integer> list = new ArrayList<>();
+            list = divide(list);
             for (int i = 0; i < 9; i++) {
                 list.add((int) (Math.random() * 10));
             }
-            System.out.println(list);
-            print(list);
+
         }
     }
 
