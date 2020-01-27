@@ -9,15 +9,15 @@ public class MergeSort {
     public ArrayList<Integer> divide(ArrayList<Integer> list) {
         ArrayList<Integer> leftSide = new ArrayList<>();
         ArrayList<Integer> rightSide = new ArrayList<>();
-        int  middleOfList = list.size()/2;
+        int middleOfList = list.size() / 2;
 
         if (list.size() == 1) {
             return list;
         } else {
-            for(int x = 0; x < middleOfList; x++) {
+            for (int x = 0; x < middleOfList; x++) {
                 leftSide.add(list.get(x));
             }
-            for(int y = middleOfList; y < list.size(); y++) {
+            for (int y = middleOfList; y < list.size(); y++) {
                 rightSide.add(list.get(y));
             }
             leftSide = divide(leftSide);
@@ -27,36 +27,28 @@ public class MergeSort {
         return list;
     }
 
-    public static void conquer(int lowestIndex, int middleOfList, int highestIndex, List<Integer> list, List<Integer> tempList) {
+    public static void conquer(ArrayList<Integer> leftSide, ArrayList<Integer> rightSide, ArrayList<Integer> list) {
 
-        int leftSide = lowestIndex;
-        int rightSide = middleOfList + 1;
+        int lowestIndex = 0;
+        int highestIndex = 0;
+        int listIndex = 0;
 
-        for (int x = lowestIndex; x <= highestIndex; x++) {
-            tempList.set(x, list.get(x));
-        }
-
-        //This while loop is comparing the two lists, the ? : operator is similar to an if so if the statement is true it returns the
-        //object to the left of the : if false it returns to the right
-        while (leftSide <= middleOfList && rightSide <= highestIndex) {
+        while (lowestIndex < leftSide.size() && highestIndex < rightSide.size()) {
             list.set(lowestIndex++,
-                    tempList.get(leftSide).compareTo(tempList.get(rightSide) < 0
-                            ? tempList.get(leftSide++)
-                            : tempList.get(rightSide++)));
+                    leftSide.get(lowestIndex).compareTo(rightSide.get(highestIndex)) < 0
+                            ? leftSide.get(lowestIndex++)
+                            : rightSide.get(highestIndex++));
         }
-
-        while (leftSide <= middleOfList) {
-            list.set(lowestIndex++, tempList.get(leftSide++));
-        }
+        listIndex++;
     }
 
-        public static void main (String[]args){
-            ArrayList<Integer> list = new ArrayList<>();
-            list = divide(list);
-            for (int i = 0; i < 9; i++) {
-                list.add((int) (Math.random() * 10));
-            }
-
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<>();
+        list = divide(list);
+        for (int i = 0; i < 9; i++) {
+            list.add((int) (Math.random() * 10));
         }
+
     }
+}
 
