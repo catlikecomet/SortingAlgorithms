@@ -34,21 +34,19 @@ public class MergeSort {
         int listIndex = 0;
 
         while (lowestIndex < leftSide.size() && highestIndex < rightSide.size()) {
-            list.set(lowestIndex++,
+            list.set(listIndex,
                     leftSide.get(lowestIndex).compareTo(rightSide.get(highestIndex)) < 0
                             ? leftSide.get(lowestIndex++)
                             : rightSide.get(highestIndex++));
+            listIndex++;
         }
-        listIndex++;
     }
 
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
-        list = divide(list);
+
         for (int i = 0; i < 9; i++) {
             list.add((int) (Math.random() * 10));
         }
-
     }
 }
-
