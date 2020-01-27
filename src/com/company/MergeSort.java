@@ -10,7 +10,7 @@ public class MergeSort {
 
         //Using recursion to keep dividing the list until it contains only 1 element at any time
         if (lowestIndex < highestIndex) {
-            int middleOfList = lowestIndex + (lowestIndex - highestIndex) / 2;
+            int middleOfList = list.size() / 2;
             divide(lowestIndex, middleOfList, list, tempList);
             divide(middleOfList + 1, highestIndex, list, tempList);
             conquer(lowestIndex, middleOfList, highestIndex, list, tempList);
