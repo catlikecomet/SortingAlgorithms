@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7a18e69b-ed73-4211-b4c0-2c8ae60bd793" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InsertionSort/com/company/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InsertionSort/com/company/MergeSort.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="423">
+              <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#221#222#0" expanded="true" />
@@ -41,6 +41,15 @@
                 <element signature="e#277#278#0" expanded="true" />
                 <element signature="e#312#313#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/SelectionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -71,9 +80,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="771" />
+    <option name="x" value="242" />
     <option name="y" value="23" />
-    <option name="width" value="909" />
+    <option name="width" value="1438" />
     <option name="height" value="925" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -168,24 +177,25 @@
       <updated>1579692744262</updated>
       <workItem from="1579692747239" duration="4064000" />
       <workItem from="1579701360190" duration="8460000" />
-      <workItem from="1579876964048" duration="13899000" />
+      <workItem from="1579876964048" duration="14609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26423000" />
+    <option name="totallyTimeSpent" value="27133000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="771" y="23" width="909" height="925" extended-state="0" />
+    <frame x="242" y="23" width="1438" height="925" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0575374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21888413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18345323" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25659472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39834514" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -232,8 +242,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="423">
+          <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#221#222#0" expanded="true" />
@@ -241,6 +251,13 @@
             <element signature="e#277#278#0" expanded="true" />
             <element signature="e#312#313#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
