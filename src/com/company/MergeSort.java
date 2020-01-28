@@ -1,19 +1,33 @@
 package com.company;
 
+import com.sun.scenario.effect.Merge;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 public class MergeSort {
 
+    public ArrayList<Integer> wholeList;
+
+    public MergeSort(ArrayList<Integer> list) {
+        wholeList = list;
+    }
+
+    public void sortMethod() {
+        wholeList = divide(wholeList);
+    }
     public ArrayList<Integer> divide(ArrayList<Integer> list) {
+        //Making empty array lists to be able to populate when splitting the lists.
         ArrayList<Integer> leftSide = new ArrayList<>();
         ArrayList<Integer> rightSide = new ArrayList<>();
-        int middleOfList = list.size() / 2;
-
+        //To prevent a stack overflow like i had before i had to make sure
+        //that the list size was more than 0. if it is greater than 1, then
+        //it splits the list in half and keeps doing so until it does = 1.
         if (list.size() == 1) {
             return list;
         } else {
+            int middleOfList = list.size() / 2;
             for (int x = 0; x < middleOfList; x++) {
                 leftSide.add(list.get(x));
             }
@@ -22,6 +36,8 @@ public class MergeSort {
             }
             leftSide = divide(leftSide);
             rightSide = divide(rightSide);
+            //Below merges all of the lists back together.
+            conquer(leftSide, rightSide, list);
 
         }
         return list;
@@ -40,6 +56,26 @@ public class MergeSort {
                             : rightSide.get(highestIndex++));
             listIndex++;
         }
+        ArrayList<Integer> leftOvers;
+        int index;
+
+        if (lowestIndex >= leftSide.size()) {
+            leftOvers = rightSide;
+            index = highestIndex;
+        } else {
+            leftOvers = leftSide;
+            index = highestIndex;
+        }
+        for (int i = index; i < leftOvers.size(); i++) {
+            list.set(listIndex, leftOvers.get(i));
+            listIndex++;
+        }
+    }
+
+    public void print() {
+        for (int z = 0; z < wholeList.size(); z++) {
+            System.out.print(wholeList.get(z));
+        }
     }
 
     public static void main(String[] args) {
@@ -48,5 +84,8 @@ public class MergeSort {
         for (int i = 0; i < 9; i++) {
             list.add((int) (Math.random() * 10));
         }
+        MergeSort mergeSort = new MergeSort(list);
+        mergeSort.sortMethod();
+        mergeSort.print();
     }
 }
