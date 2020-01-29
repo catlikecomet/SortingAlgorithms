@@ -9,16 +9,18 @@ public class Main {
     List<Integer> array = new ArrayList<>();
     List<Integer> sortedArray = new ArrayList<>();
 
-    array.add(9);
-    array.add(1);
-    array.add(4);
-    array.add(3);
-    array.add(2);
+        for (int i = 0; i < 200000; i++) {
+            array.add((int) (Math.random() * 100));
+        }
+
+        System.out.println(array);
+        System.out.println(9241 / 2451);
 
     InsertionSort(array, sortedArray);
     }
 
     public static void InsertionSort(List<Integer> unsortedArray, List<Integer> sortedArray) {
+        long startTime = System.currentTimeMillis();
         sortedArray.add(unsortedArray.get(0));
         unsortedArray.remove(0);
 
@@ -40,6 +42,8 @@ public class Main {
                     sortedArray.add(0, nextUnsortedItem);
                 }
             }
+            long endTime = System.currentTimeMillis();
             System.out.println(sortedArray);
+            System.out.println("time taken: " + (endTime - startTime) + " milliseconds");
         }
     }

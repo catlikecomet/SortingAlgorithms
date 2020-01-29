@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a18e69b-ed73-4211-b4c0-2c8ae60bd793" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SelectionSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="99">
+              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="85" selection-end-column="9" />
+            <state relative-caret-position="330">
+              <caret line="83" column="8" lean-forward="true" selection-start-line="83" selection-start-column="8" selection-end-line="85" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#252#253#0" expanded="true" />
@@ -45,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="198">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -80,7 +81,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="206" />
     <option name="y" value="23" />
-    <option name="width" value="1256" />
+    <option name="width" value="1474" />
     <option name="height" value="925" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -172,8 +173,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -190,25 +191,24 @@
       <workItem from="1579692747239" duration="4064000" />
       <workItem from="1579701360190" duration="8460000" />
       <workItem from="1579876964048" duration="16282000" />
-      <workItem from="1580296305691" duration="3036000" />
+      <workItem from="1580296305691" duration="4497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31842000" />
+    <option name="totallyTimeSpent" value="33303000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="206" y="23" width="1256" height="925" extended-state="0" />
-    <editor active="true" />
+    <frame x="206" y="23" width="1474" height="925" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25657895" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21757323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31294963" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42206234" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39834514" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -217,7 +217,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="SonarLint" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18705036" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.18705036" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32853717" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -240,23 +240,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/InsertionSort.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="99">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InsertionSort.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="85" selection-end-column="9" />
+        <state relative-caret-position="330">
+          <caret line="83" column="8" lean-forward="true" selection-start-line="83" selection-start-column="8" selection-end-line="85" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
@@ -267,8 +267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="198">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
