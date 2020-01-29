@@ -10,7 +10,6 @@ public class SelectionSort {
                 if (list.get(x + 1) < list.get(x)) {
                     list.set(list.get(x), list.get(x + 1));
                     list.set(list.get(x + 1), list.get(x));
-                    list.get(x++);
                 }
             }
         return list;
@@ -23,8 +22,5 @@ public class SelectionSort {
         }
         System.out.println(list);
         System.out.println(selectionSort(list));
-
-
-
     }
 }

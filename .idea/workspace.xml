@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a18e69b-ed73-4211-b4c0-2c8ae60bd793" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a831b10439099d44774d0ccc387e808deffaeab" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a831b10439099d44774d0ccc387e808deffaeab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InsertionSort/com/company/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InsertionSort/com/company/MergeSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SelectionSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="349">
               <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="85" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -49,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="27" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -82,7 +78,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="424" />
+    <option name="x" value="206" />
     <option name="y" value="23" />
     <option name="width" value="1256" />
     <option name="height" value="925" />
@@ -194,25 +190,24 @@
       <workItem from="1579692747239" duration="4064000" />
       <workItem from="1579701360190" duration="8460000" />
       <workItem from="1579876964048" duration="16282000" />
-      <workItem from="1580296305691" duration="1778000" />
+      <workItem from="1580296305691" duration="2299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30584000" />
+    <option name="totallyTimeSpent" value="31105000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="424" y="23" width="1256" height="925" extended-state="0" />
-    <editor active="true" />
+    <frame x="206" y="23" width="1256" height="925" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25657895" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25657895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2733813" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.039568346" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39834514" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -221,7 +216,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="SonarLint" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.18465228" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.18705036" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32853717" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -259,7 +254,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="349">
           <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="85" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -271,8 +266,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
