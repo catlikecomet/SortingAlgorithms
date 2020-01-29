@@ -1,0 +1,16 @@
+
+‘squid:S1319."sThe type of the "leftSide" object should be an interface such as "List" rather than the implementation "ArrayList".(œôÃË8¯çó»ş-
+squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(²®‡É8úÖÄ»ş-
+jsquid:UselessImportCheck":Remove this unused import 'com.sun.scenario.effect.Merge'.(¾‡Ìùÿÿÿÿ8îõ–Üş-
+Š"squid:ClassVariableVisibilityCheck"UMake wholeList a static final constant or non-public and provide accessors if needed.(ù­û8óÒ€Üş-
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¯çó»ş-
+squid:S1319"oThe type of the "list" object should be an interface such as "List" rather than the implementation "ArrayList".(²®‡É8ùÊÔ»ş-
+]squid:UselessImportCheck"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8¡ù£µş-
+Xsquid:S1191"5Use classes from the Java API instead of Sun classes.(¾‡Ìùÿÿÿÿ8îõ–Üş-
+Gsquid:S2140U")Use "java.util.Random.nextInt()" instead.(å¥íØ8Õ £µş-
+’squid:S1319"tThe type of the "wholeList" object should be an interface such as "List" rather than the implementation "ArrayList".(ù­û8óÒ€Üş-
+’squid:S1319."tThe type of the "rightSide" object should be an interface such as "List" rather than the implementation "ArrayList".(œôÃË8¯çó»ş-
+squid:S1319."oThe type of the "list" object should be an interface such as "List" rather than the implementation "ArrayList".(œôÃË8¯çó»ş-
+squid:S1319"oThe type of the "list" object should be an interface such as "List" rather than the implementation "ArrayList".(¸æà¬8¢ŠöÛş-
+[
+squid:S106M"9Replace this use of System.out or System.err by a logger.(·ä€­ÿÿÿÿÿ8ºÛÜş-
