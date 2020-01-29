@@ -1,10 +1,7 @@
 package com.company;
 
-import com.sun.scenario.effect.Merge;
-
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import java.util.Collections;
 
 public class MergeSort {
 
@@ -64,7 +61,7 @@ public class MergeSort {
             index = highestIndex;
         } else {
             leftOvers = leftSide;
-            index = highestIndex;
+            index = lowestIndex;
         }
         for (int i = index; i < leftOvers.size(); i++) {
             list.set(listIndex, leftOvers.get(i));
@@ -76,16 +73,22 @@ public class MergeSort {
         for (int z = 0; z < wholeList.size(); z++) {
             System.out.print(wholeList.get(z));
         }
+        System.out.println();
+
     }
 
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
+        long startTime = System.currentTimeMillis();
 
-        for (int i = 0; i < 9; i++) {
+        for (int i = 0; i < 100000; i++) {
             list.add((int) (Math.random() * 10));
         }
+        System.out.println(list);
         MergeSort mergeSort = new MergeSort(list);
         mergeSort.sortMethod();
+        long endTime = System.currentTimeMillis();
         mergeSort.print();
+        System.out.println("time taken: " + (endTime - startTime) + " milliseconds");
     }
 }
